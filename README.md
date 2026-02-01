@@ -4,9 +4,8 @@
 This project performs **Exploratory Data Analysis (EDA)** on the Titanic dataset.  
 The main goal is to understand patterns in the data, clean it, handle missing values, and visualize key factors affecting survival.
 
-**Internship Submission**  
+**Internship Project** 
 **Intern Name:** Komal Chauhan  
-**Company:** Hexsoftwares Pvt Ltd (Data ScienceIntern)
 
 ---
 
@@ -21,7 +20,6 @@ The dataset contains information about passengers aboard the Titanic, including:
 - Embarked (Port of Embarkation)
 - Other passenger details
 
-The dataset is publicly available and provided in `.xlsx` format.
 
 ---
 
