@@ -1,64 +1,74 @@
-# Titanic_EDA_Project
+# Titanic Survival Data Exploration
 
-## Overview
-This project performs **Exploratory Data Analysis (EDA)** on the Titanic dataset.  
-The main goal is to understand patterns in the data, clean it, handle missing values, and visualize key factors affecting survival.
+##  Overview
 
-**Internship Project** 
-**Intern Name:** Komal Chauhan  
+This project performs **Exploratory Data Analysis (EDA)** on the Titanic dataset to uncover patterns influencing passenger survival.
+The analysis focuses on data cleaning, statistical exploration, and visualization to derive meaningful insights.
 
----
-
-## Dataset Description
-The dataset contains information about passengers aboard the Titanic, including:
-
-- Survived (0 = No, 1 = Yes)
-- Passenger Class (Pclass)
-- Gender (Sex)
-- Age
-- Fare
-- Embarked (Port of Embarkation)
-- Other passenger details
-
+**Internship Project**
+**Intern Name:** Komal Chauhan
 
 ---
 
-## Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## 📊 Dataset Description
+
+The dataset contains passenger details such as:
+
+* Survival status (0 = No, 1 = Yes)
+* Passenger class (Pclass)
+* Gender
+* Age
+* Fare
+* Embarkation port
+* Additional passenger attributes
 
 ---
 
-## Project Steps
+## 🛠 Tools & Technologies
 
-1. **Data Loading** – Load the Excel dataset into Python using Pandas.
-2. **Data Cleaning** – Handle missing values, remove duplicates, and encode categorical variables.
-3. **Statistical Analysis** – Calculate mean, median, and other descriptive statistics.
-4. **Data Visualization** – Plot distributions, survival counts, bivariate and multivariate analysis.
-5. **Insights Extraction** – Understand factors affecting survival using visualizations and summary tables.
-6. **Conclusion** – Summarize key findings.
-
----
-
-## Key Insights
-- Female passengers had a **higher survival rate** than males.
-- Passengers in **1st class** survived more than those in lower classes.
-- **Higher fare** passengers had better chances of survival.
-- **Age** has a moderate impact on survival.
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
 ---
 
-## File Description
-- `Titanic_EDA_Project.ipynb` → Jupyter Notebook with full analysis, visualizations, and conclusions.
-- `README.md` → Project description and insights for GitHub.
+## 🔍 Project Workflow
+
+1. **Data Loading** – Import dataset using Pandas.
+2. **Data Cleaning** – Handle missing values and duplicates.
+3. **Statistical Exploration** – Summary statistics and distributions.
+4. **Visualization** – Survival analysis across gender, class, and fare.
+5. **Insight Extraction** – Identify survival trends.
+6. **Conclusion** – Summarize findings.
 
 ---
 
-## How to Use
-1. Open `Titanic_EDA_Project.ipynb` in Jupyter Notebook.
-2. Run all cells in order.
-3. All analysis, visualizations, and insights are **self-contained**.
+## 💡 Key Insights
 
+* Female passengers showed a **higher survival rate**.
+* First-class passengers had better survival outcomes.
+* Higher ticket fares correlated with increased survival chances.
+* Age showed a moderate relationship with survival.
+
+---
+
+## 📁 Project Files
+
+* `Titanic_EDA_Project.ipynb` — Complete notebook with analysis and visualizations
+* `README.md` — Project documentation
+
+---
+
+## ▶ How to Run
+
+1. Open the notebook in Jupyter Notebook.
+2. Run cells sequentially.
+3. All outputs and visualizations are included.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates practical EDA skills including data cleaning, visualization, and insight extraction to understand real-world datasets.
